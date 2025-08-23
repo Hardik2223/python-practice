@@ -8,3 +8,7 @@ for i in range(n):
     names.append(name)
     f.write(name+"\n")
 f.close()
+f2= open( "names.txt", "r")
+names_from_file = f2.read()
+print(names_from_file)
+f2.close()
